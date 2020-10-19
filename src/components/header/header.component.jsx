@@ -14,10 +14,10 @@ const Header = ({ currentUser ,hidden}) => (
       <Logo className="logo" />
     </Link>
     <div className="options">
-      <Link className="options" to="/book">
+      <Link className="options" to="/shop">
         BOOK NOW
       </Link>
-      <Link className="options" to="/book">
+      <Link className="options" to="/shop">
         CONTACT
       </Link>
       {currentUser ? (
